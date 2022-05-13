@@ -7,7 +7,6 @@ body {
 }
 
 .students {
-	background-color: #000000;
 }
 
 .student {
@@ -15,6 +14,7 @@ body {
 	border-radius: 20px;
 	text-align: left;
 	font-size: x-large;
+	background-color: #FFFFFF;
 }
 
 .name {
