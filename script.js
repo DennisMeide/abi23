@@ -13,5 +13,5 @@ const display =`
     </div>
 `;
 
-//document.getElementsByClassName("students").innerHTML= display;
+document.getElementsByClassName("students").innerHTML= display;
 document.body.innerHTML = display;
