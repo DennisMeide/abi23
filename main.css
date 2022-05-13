@@ -1,19 +1,25 @@
 body {
-	text-align: center;
+	/*text-align: center;
 	background-image: url('./src/backgroundimg.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: cover;*/
 	color: #FFFFFF;
+	background-color:
 }
 
 .students {
 	text-align: center;
 	align-content:center;
 	color: #000000;
+	background-image: url('./src/backgroundimg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .student {
+	color: #000000;
 	background-color: #FFFFFF;
 	width:90%;
 	border-radius: 20px;
