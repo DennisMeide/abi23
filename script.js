@@ -1,5 +1,3 @@
-alert("working");
-
 const schueler = {
     name: "Meide",
     firstname: "Dennis",
@@ -15,4 +13,5 @@ const display =`
     </div>
 `;
 
-document.getElementsByClassName("students").innerHTML= display;
+//document.getElementsByClassName("students").innerHTML= display;
+document.body.innerHTML = display;
