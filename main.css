@@ -49,3 +49,32 @@ body {
 .zitat {
 	font-style: italic;
 }
+
+.cBanner {
+	font-size: x-large;
+	text-align: center;
+}
+
+.tBanner {
+	width: 33%;
+	margin: auto;
+	display: inline-block;
+    *display: inline;
+    zoom: 1;
+	background-color: rgb(164, 144, 255);
+	border-radius: 20px;
+}
+
+.disclaimer {
+	border: 5px solid #ff0000 ;
+	margin: 20px;
+	margin-left: 0px;
+	padding: 10px;
+	padding-top: 0px;
+	width: fit-content; 
+}
+
+#banner a:link { color: #000000; }
+#banner a:visited { color: #000000; }
+#banner a:hover { color: #70DB93; }
+#banner a:active { color: #70DB93; }
