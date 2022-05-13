@@ -1,7 +1,13 @@
+body {
+	text-align: center;
+}
+
 .students {
 	background-color: #000000;
 }
 
 .student {
 	background-color: #FFFFFF;
+	width:90%;
+	border-radius: 20px;
 }
