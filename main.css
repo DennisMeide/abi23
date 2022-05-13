@@ -4,10 +4,12 @@ body {
 
 .students {
 	background-color: #000000;
+	margin: auto;
 }
 
 .student {
 	background-color: #FFFFFF;
 	width:90%;
 	border-radius: 20px;
+	margin: auto;
 }
