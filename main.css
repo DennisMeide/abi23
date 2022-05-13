@@ -56,7 +56,10 @@ body {
 }
 
 .tBanner {
-	width: 33%;
+	width: fit-content;
+	padding: 10px;
+	padding-left: 10%;
+	padding-right: 10%;
 	margin: auto;
 	display: inline-block;
     *display: inline;
