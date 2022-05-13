@@ -12,10 +12,10 @@ body {
 	text-align: center;
 	align-content:center;
 	color: #000000;
-	background-image: url('./src/backgroundimg.jpg');
+	/*background-image: url('./src/backgroundimg.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: cover;*/
 	margin: auto;
 }
 
