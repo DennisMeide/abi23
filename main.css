@@ -7,14 +7,18 @@ body {
 }
 
 .students {
+	text-align: center;
+	align-content:center;
 }
 
 .student {
+	background-color: #FFFFFF;
 	width:90%;
 	border-radius: 20px;
 	text-align: left;
 	font-size: x-large;
-	background-color: #FFFFFF;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .name {
