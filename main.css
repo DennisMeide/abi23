@@ -1,5 +1,9 @@
 body {
 	text-align: center;
+	background-image: url('./src/backgroundimg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .students {
