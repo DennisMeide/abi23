@@ -17,7 +17,7 @@ alert("Wenn du Vorschläge für einen Text, Bilder, oder eine Änderung (z.B. Ti
 
 const studentList = [
 
-  ["Meide","Dennis","Liebt Katzen und Pizza.","Ist Deutschland nicht in Berlin?",false],
+  ["Meide","Dennis","Liebt Katzen, Pizza, und seine Freundin.","Ist Deutschland nicht in Berlin?",false],
   ["Fenn","Nathaniel","Ist gut in Geographie, weiss aber nicht wo Kaukasus liegt.","Kaukasus",false],
   ["Saijkoski","Tim Elias","Hasst Schule. Hasst jeden.","Ich hasse dich auch. ",false],
   ["Schwier","Ruven Lennart","txt","zitat",false],
