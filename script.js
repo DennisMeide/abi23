@@ -9,7 +9,7 @@ function addCode(pName, pVorname, ownText, quote, specialMark) {
 
 // --------------DELETE LATER------------------------------------------------------------------------------
 
-alert("Wenn du Vorschläge für einen Text oder eine Änderung (z.B. Tippfehler) hast, kontaktiere Dennis Meide oder die SV!");
+alert("Wenn du Vorschläge für einen Text, Bilder, oder eine Änderung (z.B. Tippfehler) hast, kontaktiere Dennis Meide oder die SV!");
 
 // --------------DELETE LATER------------------------------------------------------------------------------
 
