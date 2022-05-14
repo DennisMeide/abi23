@@ -67,7 +67,7 @@ const studentList = [
   ["Peschel","G&egrave;za","txt","zitat",false],
   ["Depner","Celine","txt","zitat",false],
   ["Klenke","Finn","txt","zitat",false],
-  ["Huneke","Frans","Von allen gehasst.","Huh?",false],
+  ["Huneke","Frans","Bester Schüler Wittichs.","zitat",false],
   ["Isbrecht","Kateline","txt","zitat",false],
   ["Brandhorst","Katja","txt","zitat",false],
   ["Schmitz","Jana","txt","zitat",false],
