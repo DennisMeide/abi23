@@ -54,7 +54,7 @@ const studentList = [
   ["Kolisch","Garret Jason","txt","zitat",false],
   ["Cigdem","Alara","txt","zitat",false],
   ["S&uuml;dmeier","Lilly","txt","zitat",true],
-  ["van der Meyden","Fynn","txt","zitat",false],
+  ["Van der Meyden","Fynn","txt","zitat",false],
   ["Richter","Aaron Caleb","txt","zitat",true],
   ["Happel","Jonte Bjarne","txt","zitat",true],
   ["Hill","Marten","txt","zitat",false],
