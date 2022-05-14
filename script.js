@@ -25,7 +25,7 @@ const studentList = [
   ["Grabowsky","Leon","txt","zitat",false],
   ["Wiebe","Alexandra","txt","zitat",false],
   ["Gavrilova","Lea","txt","zitat",false],
-  ["Paulsen","Melvin Jesper","txt","zitat",false],
+  ["Paulsen","Melvin Jesper","Findet den Unterricht von Herrn Vogt zum Kotzen.","Kurze Werbeunterbrechung, jetzt gehts weiter.",false],
   ["Abruszat","Moritz Kilian","txt","zitat",false],
   ["Heuke","Leon","txt","zitat",false],
   ["Belus","Lil Solvei","txt","zitat",false],
