@@ -1,5 +1,5 @@
 function addCode(pNr) {
-    document.getElementById("pictures").innerHTML += '<div class="pict"><img class="img" src="../images/' + pNr + '.jpeg"></div>';
+    document.getElementById("pictures").innerHTML += '<div class="pict"><img class="img" src="../images/' + pNr + '.jpeg" alt="[Bild gelöscht]"></div>';
   }
   
   
