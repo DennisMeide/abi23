@@ -13,9 +13,8 @@ function addCode(pName, pVorname, ownText, quote) {
   
   const teacherList = [
   
-    ["Richter","Christoph","Kommt selten pünklich zu Physik. Hat die anständigsten Kurse überhaupt. ","Ihr seht: Ich habe mein bestes getan, das zu unterbinden. "],
-    ["Bylebyl","Nadine","Liebt ihre Informatik Schüler/-innen!","Placeholder"]
-    
+    ["Name","Vorname","txt","zitat"]
+        
   ];
   
   teacherList.sort();
