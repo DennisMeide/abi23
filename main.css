@@ -1,85 +1,142 @@
+/*background img*/
 body {
-	/*text-align: center;
-	background-image: url('./src/backgroundimg.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;*/
-	color: #FFFFFF;
-	background-color: #000000;
-	font-family: 'Rubik', sans-serif;
+    background-image: url('./src/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
 }
 
-.students {
+/*body background Impressum*/
+.body_impressum {
+    color: #FFFFFF;
+    background-color: #000000;
+    /*background-image: none;*/
+    text-align: center;
+}
+
+.impressum_text {
+    margin: auto;
+    text-align: left;
+    width: fit-content;
+    background-color: #353535;
+    padding: 20px;
+    margin-top: 20px;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+
+.body_impressum a {color:rgb(164, 204, 255)} /*Impressum Link*/
+
+/*persones*/
+.all_persones {
+    margin: auto;
+    padding: 10px 3px;
+    text-align: center;
+}
+
+.single_person_card {
+    text-align: left;
+    padding: 2px 10px;
+    padding-top: 1px;
+    width: 50%;
+    height: fit-content;
+    margin: 10px;
+    background-color: #353535;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #808080;
+    border-width: 2px;
+}
+
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: #353535;
+    padding: 20px 10px;
+    border-radius: 10px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: rgb(85, 85, 85);
+    color: #FFFFFF;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+
+  /*Images*/
+
+  .img {
+	max-width: 50%;
+	max-height: 600px;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+.pictureframe {
 	text-align: center;
 	align-content:center;
 	color: #FFFFFF;
-	/*background-image: url('./src/backgroundimg.jpg');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;*/
-	margin: auto;
-}
-
-.student {
-	color: #000000;
-	background-color: #FFFFFF;
-	width:90%;
-	text-align: left;
-	border-radius: 20px;
-	font-size: x-large;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin: auto;
-}
-
-.name {
-	font-size: xx-large;
-	font-weight: bold;
-}
-
-.header {
-	color: #FFFFFF;
-}
-
-.credits {
-	color: #FFFFFF;
-	text-align: center;
-}
-
-.zitat {
-	font-style: italic;
-}
-
-.cBanner {
-	font-size: x-large;
-	text-align: center;
-	width: 100%;
-}
-
-.tBanner {
-	width: fit-content;
-	padding: 10px;
-	width: 25%;
 	margin: auto;
 	display: inline-block;
-    *display: inline;
+	*display: inline;
     zoom: 1;
-	color: #FFFFFF;
-	background-color: rgb(87, 87, 87);
-	border-radius: 20px;
 }
+  
+  @media screen and (max-width: 800px) {
+      .single_person_card {
+        width: 70%;
+    }
+  }
 
-.disclaimer {
-	border: 5px solid #ff0000 ;
-	margin-left: 0px;
-	padding: 10px;
-	padding-top: 0px;
-	width: fit-content; 
-	margin: auto;
-	margin-top: 20px;
-}
 
-#banner a:link { color: #FFFFFF; }
-#banner a:visited { color: #FFFFFF; }
-#banner a:hover { color: #70DB93; }
-#banner a:active { color: #70DB93; }
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 670px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+
+    .single_person_card {
+        width: 90%;
+    }
+
+    .img {
+        max-width: 90%;
+    }
+  }
+
