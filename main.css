@@ -145,7 +145,7 @@ body {
       float: none;
       display: block;
       text-align: left;
-      font-size: x-large;
+      font-size: xx-large;
     }
     .header-right {
       float: none;
@@ -160,6 +160,10 @@ body {
     }
 
     body {
+      font-size: xx-large;
+    }
+
+    body p {
       font-size: x-large;
     }
   }
