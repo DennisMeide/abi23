@@ -29,7 +29,46 @@ body {
 
 .body_impressum a {color:rgb(164, 204, 255)} /*Impressum Link*/
 
-/*persones*/
+/*displaying of different cards on MainPage*/
+.mainpage_contents {
+  background-color: #33333300;
+  display: inline-block;
+  padding: 2%;
+  *display: inline;
+  vertical-align: top;
+  margin: auto;
+}
+
+.mainpage_singleContent {
+  vertical-align: top;
+  text-align: left;
+  width: fit-content;
+  margin: auto;
+  display: inline-block;
+  background-color: #333333dd;
+  color: #FFFFFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  max-width: 40%;
+}
+
+.mainpage_singleContent_subContent {
+  margin-bottom: 10px;
+  border-width: 2px;
+  border-color: #FFFFFF55;
+  border-style: solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+.mainpage_subtitle {
+  font-weight: bold;
+}
+
+/*optimizing persones*/
 .all_persones {
     margin: auto;
     padding: 10px 3px;
@@ -99,8 +138,9 @@ body {
 	max-width: 50%;
 	max-height: 600px;
 	display: inline-block;
-	float: left;
 	padding: 10px;
+	float: left;
+  vertical-align: top;
 }
 
 .pictureframe {
@@ -110,7 +150,8 @@ body {
 	margin: auto;
 	display: inline-block;
 	*display: inline;
-    zoom: 1;
+  zoom: 1;
+  vertical-align: top;
 }
 
 .person_qoute {
@@ -120,6 +161,12 @@ body {
   @media screen and (max-width: 800px) {
     .single_person_card {
       width: 70%;
+    }
+
+    .mainpage_singleContent {
+      width: 90%;
+      margin: auto;
+      margin-top: 10px;
     }
   }
 
@@ -169,6 +216,12 @@ body {
 
     body p {
       font-size: x-large;
+    }
+
+    .mainpage_singleContent {
+      width: 90%;
+      margin: auto;
+      margin-top: 10px;
     }
   }
   
