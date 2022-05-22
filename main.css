@@ -112,6 +112,10 @@ body {
 	*display: inline;
     zoom: 1;
 }
+
+.person_qoute {
+  font-style: italic;
+}
   
   @media screen and (max-width: 800px) {
     .single_person_card {
