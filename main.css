@@ -145,6 +145,7 @@ body {
       float: none;
       display: block;
       text-align: left;
+      font-size: x-large;
     }
     .header-right {
       float: none;
@@ -156,6 +157,10 @@ body {
 
     .img {
         max-width: 90%;
+    }
+
+    body {
+      font-size: x-large;
     }
   }
   
