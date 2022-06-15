@@ -1,9 +1,10 @@
 /*background img*/
 body {
-    background-image: url('./src/background.jpg');
+    /*background-image: url('./src/background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover;*/
+    background-color: #C7C7C7;
     color: #FFFFFF;
     text-align: center;
 }
